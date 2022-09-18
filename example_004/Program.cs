@@ -1,4 +1,7 @@
-﻿void PrintArray(int[,] matr)
+﻿// Напишите программу, которая заполнит спирально массив 4 на 4.
+// Например, на выходе получается вот такой массив:
+
+void PrintArray(int[,] matr)
 {
 for (int i = 0; i < matr.GetLength(0); i++)
 {
